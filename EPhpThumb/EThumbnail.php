@@ -108,7 +108,7 @@ class EThumbnail extends CComponent
      * Renders this image.
      * @return EThumbnail
      */
-    public function render()
+    public function show()
     {
             $this->_thumbnail=$this->_thumbnail->show();
             return $this;
