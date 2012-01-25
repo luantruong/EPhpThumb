@@ -74,7 +74,7 @@ class EThumbnail extends CComponent
      * @param string $direction the direction to rotate the image in.
      * @return EThumbnail
      */
-    public function rotate($direction=Img::DIRECTION_CLOCKWISE)
+    public function rotateImage($direction='CW')
     {
             $this->_thumbnail=$this->_thumbnail->rotateImage($direction);
             return $this;
@@ -86,7 +86,7 @@ class EThumbnail extends CComponent
      * @param integer $degrees the amount of degrees.
      * @return EThumbnail
      */
-    public function rotateDegrees($degrees)
+    public function rotateImageNDegrees($degrees)
     {
             $this->_thumbnail=$this->_thumbnail->rotateImageNDegrees($degrees);
             return $this;

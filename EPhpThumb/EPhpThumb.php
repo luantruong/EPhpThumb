@@ -10,6 +10,7 @@
  * @author Johannes "Haensel" Bauer <thehaensel@gmail.com>
  */
 require_once(dirname(__FILE__).'/lib/phpThumb/src/ThumbLib.inc.php');
+require_once(dirname(__FILE__).'/EThumbnail.php');
 
 /**
  * This class creates thumbnail objects that can be used to manipulate images. Activate this component
