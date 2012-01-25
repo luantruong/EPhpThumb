@@ -5,7 +5,6 @@ fancy, just the things phpThumb does but in a way that is familiar for Yii users
 #USAGE
 Config in main.php
 ~~~
-[php]
 ...
 'phpThumb'=>array(
 	'class'=>'ext.EPhpThumb.EPhpThumb',
@@ -15,7 +14,6 @@ Config in main.php
 ~~~
 Creating thumbnails
 ~~~
-[php]
 $thumb=Yii::app()->phpThumb->create('../images/myImage.jpg');
 $thumb->resize(100,100);
 $thumb->save('../images/thumb.jpg');
